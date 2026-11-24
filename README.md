@@ -1,12 +1,32 @@
-# React + Vite
+# PropChain frontend starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React and Vite experiment for the PropChain concept. The current application renders a welcome screen and demonstrates Tailwind styling. It is a frontend starting point, not a complete property marketplace or blockchain implementation.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React 19, Vite 7, JavaScript and Tailwind CSS.
 
-## Expanding the ESLint configuration
+## Run locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```sh
+npm install
+npm run dev
+```
+
+## Available checks
+
+```sh
+npm run lint
+npm run build
+npm run preview
+```
+
+The commands are defined in package.json. No claim of a verified production deployment or automated test suite is made here.
+
+## Structure
+
+- `src/App.jsx`: welcome screen
+- `src/`: application source and styles
+- `public/`: static assets
+
+For complete, documented business-analysis case studies, see [Retail Operations Analysis](https://github.com/nikunjgalaiya/retail-operations-analysis) and [Parts Desk](https://github.com/nikunjgalaiya/spare-parts-order-workflow).
